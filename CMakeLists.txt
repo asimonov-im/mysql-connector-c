@@ -318,7 +318,7 @@ IF(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 ENDIF(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 
 INSTALL(DIRECTORY "include/"
-        DESTINATION "include"
+        DESTINATION "include/mysql"
         FILES_MATCHING PATTERN "*.h")
 
 # ----------------------------------------------------------------------
